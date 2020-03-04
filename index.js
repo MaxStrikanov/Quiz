@@ -16,7 +16,7 @@ function randomInteger(min, max) {
 //console.log(i);
 
 var data = fs.readFileSync(q[i], 'utf8');
-console.log('Вопрос №: '+i+ ' '+ data.toString());
+console.log('Вопрос:  ' + data.toString());
 
 // fs.readFile(q[i], function (err, data) {
 // 	if (err) throw err;
